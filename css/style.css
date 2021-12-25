@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 4vh;
+}
+.logo img{
+    height: 5vh;
+}
+
+.chat-container{
+    height: 60vh;
+    margin: 1vh 3vw;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px 12px;
+    overflow-y:scroll;
+}
+.chat-bar{
+    width: 100%;
+}
+#messageinp{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 6px 11px;
+    margin-left:3vw;
+    width: 77%; 
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: right;
+}
+#send{
+    padding: 6px 6px;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: burlywood;
+    width: 8vmax;
+    cursor: pointer;
+    transition:all 0.3s ease;
+
+}
+
+#send:hover{
+    background-color: rgb(73, 61, 45);
+    color: white;
+}
+
+.chat-container .message{
+    border: 2px solid rgb(146, 137, 137);
+    background-color: rgb(236, 225, 225);
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 11px;
+    width: 45%;
+   
+
+}
+
+.chat-container .right{
+    float: right;
+    clear: both;
+    background-color: rgb(241, 119, 201);
+   
+    
+}
+
+.chat-container .left{
+    float: left;
+    clear: both;
+    background-color: chartreuse;
+}
+
+.main-container{
+    width: 65%;
+    margin: 2px auto;
+}
